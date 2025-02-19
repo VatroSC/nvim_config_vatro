@@ -2,8 +2,8 @@
 
 ### this is a messy repo
 
-- [] nvim, vim löschen 
-- [] vanilla nvim neu instalieren
+- [x] nvim, vim löschen 
+- [x] vanilla nvim neu instalieren
 - [] config, plugins instalieren
 - [] den ganzen prozess Dokumentieren
 
@@ -20,16 +20,16 @@ rm -rfv /root/.local/state/
 ## Installing nvim via git
 [releases:](https://github.com/neovim/neovim/releases)
 ```bash
-- cd /usr/local/share
-- wget https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.tar.gz
-- tar xzvf nvim-linux-x86_64.tar.gz
--  ln -s /usr/local/share/nvim-linux-x86_64/nvim /usr/local/bin/nvim
-- nvim --version
+cd /usr/local/share
+wget https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.tar.gz
+tar xzvf nvim-linux-x86_64.tar.gz
+ln -s /usr/local/share/nvim-linux-x86_64/nvim /usr/local/bin/nvim
+nvim --version
 ```
 ## config
 ```bash
-- mkdir -p ~/.config/nvim
-- touch ~/.config/nvim/init.lua
+mkdir -p ~/.config/nvim
+touch ~/.config/nvim/init.lua
 ```
 ### init.lua config
 
