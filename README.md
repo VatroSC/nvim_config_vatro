@@ -40,18 +40,12 @@ vim.cmd("set tabspace=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 ```
-### packet manager
-[manager of choice](https://github.com/folke/lazy.nvim)
-#### color theme
-[theme of choice](https://github.com/catppuccin/nvim?tab=readme-ov-file)
-#### file finding
-[telescope](https://github.com/nvim-telescope/telescope.nvim)
-[fzf](https://github.com/ibhagwan/fzf-lua) may be a better alternative. not shure. me noob
-#### highlit and indent ("")
-[treesitter][https://github.com/nvim-treesitter/nvim-treesitter}
-#### file tree
-[Neo_Tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
-nerd fonts (optional)
+#### packet manager: [manager of choice](https://github.com/folke/lazy.nvim)
+#### color theme [theme of choice](https://github.com/catppuccin/nvim?tab=readme-ov-file)
+#### file finding [telescope](https://github.com/nvim-telescope/telescope.nvim) [fzf](https://github.com/ibhagwan/fzf-lua) may be a better alternative. not shure. me noob
+#### highlit and indent [treesitter][https://github.com/nvim-treesitter/nvim-treesitter}
+#### file tree [Neo_Tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
+#### nerd fonts (optional)
 
 ````bash
 cd ~/.local/share/fonts
